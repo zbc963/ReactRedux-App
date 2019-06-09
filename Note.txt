@@ -1,0 +1,31 @@
+Section 1:
+npm install -g(install it globally) create-react-app(package name)
+1.Babel: is a dependency able to parse any version of javascript(eg:js2018,js2015) into ES5 js file.
+2. const React = require('react') is CommonJS Modules import statement
+   import is ES2015 Import statement
+
+
+Section 2: Building Content with JSX
+1.we usually use JSX in es2015 function call
+ JSX format is allowed us to write code in HTML instead of the function calls such as '<div>' = 'React.createElement("div", null, React.creatElement()....)'
+2. Browser dont understand JSX code, we wrote JSX then run tools to turn it into normal JS
+3. Difference between HTML and JSX : 
+a. different way to add the styling 
+(eg:HTML = <button style = "background-color:blue;color:white;"> Submit </button>
+JSX =  <button style ={{color:'white',background:'blue'}}> Submit </button>)
+b. class in JSX is className vs class in HTML in order to avoid class{} in js
+c. JSX can easily reference JS variables
+JS is not able to show the content like the attribute such as buttonText = {text: 'Click Me'} then {buttonText}, instead we could just show one of the attribute such as buttonText.text
+
+Section3: Communicating with Props
+1. Component Nesting: can be shown inside of another component
+2. Reusable
+3. configuration
+4. Props(properties): stage 1: System for passing data from a parent component to a child component
+		      stage 2: Goal is to customize or configure a child component
+
+
+Section4: Structuring Apps with Class-Based Components
+1.Geolocation to get the current location
+
+
