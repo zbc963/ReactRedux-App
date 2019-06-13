@@ -28,4 +28,32 @@ Section3: Communicating with Props
 Section4: Structuring Apps with Class-Based Components
 1.Geolocation to get the current location
 
+Section 5:
+App lifecycle walking through:
+1. JS file is loaded into browser
+2. Instance of App component is created
+3. App components 'constructor' fucntion get called
+4. State object is created and assigned to the 'this.state' property
+5. We call geolocation service
+6. React calls the components render method
+7. Position callback function get return value, the props is reset by setState()
+8. React calls the render method second time
+
+Section 6:
+Component Lifecycle:
+1. contructor
+2. render => content will be visible on the screen
+3. componentDidMount(this method will be instantly called one time when our component is first get rendered on the screen ) 
+4. sit and wait for updates.. => componentDidUpdate
+5. sit and wait until this component is not longer shown => componentWillUnmount(good place to do cleanup(especially non-React stuff))
+
+Why Lifecycle Method:
+make your code more clear, and to see the lifecycle of the components will be rendered in different time point
+Other rare lifecycle:
+1. shouldComponentUpdate
+2. getDerivedStateFromProps
+3. getSnapshotBeforeUpdate
+
+Section 7: Hnadling User Input with Forms and Events
+
 
