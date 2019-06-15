@@ -55,5 +55,21 @@ Other rare lifecycle:
 3. getSnapshotBeforeUpdate
 
 Section 7: Hnadling User Input with Forms and Events
+1. Users clicks on something=>onClick
+2. User changes text in an input => onChange
+3. User submits a form => onSubmit
 
+React devleoper prefer Controlled element
+Controlled(keep all the value is known in the React framework) vs unControlled(all the information is stored outside the React framework. eg.in the html DOM)
+flow:
+1. user types in input
+2. Callback gets invoked
+3. we call setState with the new value
+4. Component renders
+5. Input is told what its value is
+Controlled element will be better to be organized in the React, cuz at anytime point we have value instantly instead of finding the value through the html DOM
+
+<form> with <input> inside when use press 'Enter' key, the browser will be defualt regard it as submit
+
+this.bind and ()=> is able to solve the undefined elements called in the function
 
