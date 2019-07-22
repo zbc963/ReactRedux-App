@@ -73,3 +73,25 @@ Controlled element will be better to be organized in the React, cuz at anytime p
 
 this.bind and ()=> is able to solve the undefined elements called in the function
 
+Section 8: Making API requests with React
+React is only to handle the html and the user interaction within the html
+Axios is in order to handle the ajax request and 
+Fetch is a single function built into modern browsers
+axios.get('path',{param:{query:term}, Headers:{Authorization: ' '}) return a object called promise
+map() is an function that built into the array object in the JS 
+
+
+Section 9 : Handling List in React
+array.map((arguments)=>{return <html tag attribute={arguments.id}/>})
+
+Section 10:  Using Ref'S for DOM access
+1. Grid CSS system
+grid-template-columns: repeat(auto-fill,minmax(250px,1fr))  
+'1fr' here means each max in each column will take the 1 frame that is greater than 250 px;
+2. props.images.map(({description,id,urls})=>{....}) description,id and urls will directly inherint the related properties of the array
+3. const {description,id,urls} = this.props.image; another way to assign the property to each variables and it's reuseable
+4. we do not directly use document.querySelector('') to select the component in the DOM tree. Instead, we use React Refs
+
+
+
+
