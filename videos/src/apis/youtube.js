@@ -1,6 +1,6 @@
 import aixos from 'axios';
 
-const KEY = 'AIzaSyCT-Om81ZRhG9W09JvMzDCCj-gE9tfsksU';
+const KEY = 'fake';
 
 export default aixos.create({
     baseURL:'https://www.googleapis.com/youtube/v3',
